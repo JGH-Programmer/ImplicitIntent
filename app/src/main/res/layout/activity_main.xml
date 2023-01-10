@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Please enter Url"
+        android:textColorHint="@color/custom_red"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="20dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/custom_blue"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp">
+
+    </Button>
+
+</LinearLayout>
